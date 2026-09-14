@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14 21:14:34",
+  "updated": "2026-09-14 23:10:25",
   "apps": {
     "GBox": {
       "builds": [
@@ -12,6 +12,20 @@
           "bundle_id": "com.tf06.gbx",
           "note": "Eanble allowIndv judgment function",
           "time": "2026-09-14 21:14:34"
+        }
+      ]
+    },
+    "Cadence": {
+      "builds": [
+        {
+          "id": "20260914-231024-82984f7-RrfoU",
+          "file": "builds/Cadence/20260914-231024-82984f7-RrfoU.ipa",
+          "manifest": "builds/Cadence/20260914-231024-82984f7-RrfoU.plist",
+          "version": "1.0",
+          "build": "2",
+          "bundle_id": "com.we.Cadence",
+          "note": "",
+          "time": "2026-09-14 23:10:25"
         }
       ]
     }
