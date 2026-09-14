@@ -1,9 +1,18 @@
 {
-  "updated": "2026-09-14 15:52:32",
+  "updated": "2026-09-14 21:14:34",
   "apps": {
     "GBox": {
       "builds": [
-        
+        {
+          "id": "20260914-211433-beed333-xO7Ea",
+          "file": "builds/GBox/20260914-211433-beed333-xO7Ea.ipa",
+          "manifest": "builds/GBox/20260914-211433-beed333-xO7Ea.plist",
+          "version": "5.2.5",
+          "build": "5.2.5",
+          "bundle_id": "com.tf06.gbx",
+          "note": "Eanble allowIndv judgment function",
+          "time": "2026-09-14 21:14:34"
+        }
       ]
     }
   }
