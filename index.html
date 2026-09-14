@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>App Builds</title>
+<style>
+  :root {
+    --bg: #f2f2f7; --card: #ffffff; --text: #1c1c1e; --muted: #8e8e93;
+    --accent: #007aff; --border: #e5e5ea; --danger: #ff3b30;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000; --card: #1c1c1e; --text: #ffffff; --muted: #98989d;
+      --accent: #0a84ff; --border: #38383a; --danger: #ff453a;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", sans-serif;
+    background: var(--bg); color: var(--text);
+    -webkit-text-size-adjust: 100%;
+    padding: 16px 16px calc(16px + env(safe-area-inset-bottom));
+    max-width: 640px; margin: 0 auto;
+  }
+  h1 { font-size: 22px; margin-bottom: 12px; }
+  select {
+    width: 100%; padding: 12px; font-size: 16px; margin-bottom: 16px;
+    border-radius: 10px; border: 1px solid var(--border);
+    background: var(--card); color: var(--text); appearance: none;
+  }
+  .card {
+    background: var(--card); border-radius: 12px; padding: 14px;
+    margin-bottom: 12px; border: 1px solid var(--border);
+  }
+  .card.latest { border-color: var(--accent); }
+  .tag {
+    display: inline-block; font-size: 12px; color: var(--accent);
+    border: 1px solid var(--accent); border-radius: 6px;
+    padding: 1px 6px; margin-left: 8px; vertical-align: middle;
+  }
+  .row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .title { font-size: 17px; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 13px; line-height: 1.6; margin-top: 6px; word-break: break-all; }
+  .actions { display: flex; gap: 8px; margin-top: 12px; }
+  .btn {
+    flex: 1; text-align: center; padding: 10px 0; border-radius: 10px;
+    font-size: 15px; font-weight: 600; text-decoration: none;
+  }
+  .btn-install { background: var(--accent); color: #fff; }
+  .btn-download { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+  .status { color: var(--muted); text-align: center; padding: 40px 0; }
+  .error { color: var(--danger); }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 16px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <h1>App Builds</h1>
+  <select id="appSelect"><option>Loading…</option></select>
+  <div id="list" class="status">Loading…</div>
+  <p class="hint">Installation requires the device UDID to be included in the provisioning profile (any device previously installed via Xcode qualifies). iOS shows install progress on the Home Screen; reinstalling the same Bundle ID keeps app data.</p>
+
+<script>
+(function () {
+  var select = document.getElementById('appSelect');
+  var list = document.getElementById('list');
+  var data = null;
+
+  function absUrl(rel) {
+    // itms-services requires absolute HTTPS URLs
+    return new URL(rel, location.href).href;
+  }
+
+  function installHref(manifest) {
+    return 'itms-services://?action=download-manifest&url=' +
+      encodeURIComponent(absUrl(manifest));
+  }
+
+  function esc(s) {
+    var d = document.createElement('div');
+    d.textContent = s == null ? '' : String(s);
+    return d.innerHTML;
+  }
+
+  function cardHtml(b, isLatest) {
+    var time = b.time || '';
+    var ver = b.version ? ('v' + b.version + (b.build ? ' (' + b.build + ')' : '')) : '';
+    var note = b.note ? '<div>' + esc(b.note) + '</div>' : '';
+    return '<div class="card' + (isLatest ? ' latest' : '') + '">' +
+      '<div class="row"><span class="title">' + esc(time) +
+      (isLatest ? '<span class="tag">latest</span>' : '') + '</span></div>' +
+      '<div class="meta">' + ver + ' · ' + esc(b.id || '') +
+      (b.bundle_id ? '<br>' + esc(b.bundle_id) : '') + note + '</div>' +
+      '<div class="actions">' +
+      '<a class="btn btn-install" href="' + installHref(b.manifest) + '">Install</a>' +
+      '<a class="btn btn-download" href="' + absUrl(b.file) + '">Download IPA</a>' +
+      '</div></div>';
+  }
+
+  function render() {
+    var apps = Object.keys(data.apps || {}).sort();
+    if (!apps.length) {
+      select.innerHTML = '<option>No apps yet</option>';
+      list.className = 'status';
+      list.textContent = 'No builds yet';
+      return;
+    }
+    var current = select.value;
+    select.innerHTML = apps.map(function (a) {
+      return '<option value="' + esc(a) + '">' + esc(a) + '</option>';
+    }).join('');
+    if (apps.indexOf(current) >= 0) select.value = current;
+    var app = data.apps[select.value] || { builds: [] };
+    var builds = app.builds || [];
+    if (!builds.length) {
+      list.className = 'status';
+      list.textContent = 'No builds for this app yet';
+      return;
+    }
+    list.className = '';
+    list.innerHTML = builds.map(function (b, i) {
+      return cardHtml(b, i === 0);
+    }).join('');
+  }
+
+  select.addEventListener('change', render);
+
+  // Cache-bust the Pages CDN
+  fetch('builds.json?t=' + Date.now())
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (j) { data = j; render(); })
+    .catch(function (e) {
+      select.innerHTML = '<option>Failed to load</option>';
+      list.className = 'status error';
+      list.textContent = 'Failed to load builds.json: ' + e.message;
+    });
+})();
+</script>
+</body>
+</html>
