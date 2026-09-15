@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14 23:10:25",
+  "updated": "2026-09-15 12:26:17",
   "apps": {
     "GBox": {
       "builds": [
@@ -17,6 +17,16 @@
     },
     "Cadence": {
       "builds": [
+        {
+          "id": "20260915-122616-bef33d5-ipY0Q",
+          "file": "builds/Cadence/20260915-122616-bef33d5-ipY0Q.ipa",
+          "manifest": "builds/Cadence/20260915-122616-bef33d5-ipY0Q.plist",
+          "version": "1.0",
+          "build": "3",
+          "bundle_id": "com.we.Cadence",
+          "note": "Build 3 - Family Controls entitlement test",
+          "time": "2026-09-15 12:26:17"
+        },
         {
           "id": "20260914-231024-82984f7-RrfoU",
           "file": "builds/Cadence/20260914-231024-82984f7-RrfoU.ipa",
