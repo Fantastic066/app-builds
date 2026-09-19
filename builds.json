@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15 12:26:17",
+  "updated": "2026-09-19 22:57:57",
   "apps": {
     "GBox": {
       "builds": [
@@ -17,6 +17,16 @@
     },
     "Cadence": {
       "builds": [
+        {
+          "id": "20260919-225756-bef33d5-gjW5O",
+          "file": "builds/Cadence/20260919-225756-bef33d5-gjW5O.ipa",
+          "manifest": "builds/Cadence/20260919-225756-bef33d5-gjW5O.plist",
+          "version": "1.0",
+          "build": "3",
+          "bundle_id": "com.we.Cadence",
+          "note": "Build 3 fix - extension English localization",
+          "time": "2026-09-19 22:57:57"
+        },
         {
           "id": "20260915-122616-bef33d5-ipY0Q",
           "file": "builds/Cadence/20260915-122616-bef33d5-ipY0Q.ipa",
