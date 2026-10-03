@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19 22:57:57",
+  "updated": "2026-10-03 18:47:53",
   "apps": {
     "GBox": {
       "builds": [
@@ -46,6 +46,20 @@
           "bundle_id": "com.we.Cadence",
           "note": "",
           "time": "2026-09-14 23:10:25"
+        }
+      ]
+    },
+    "Atuo": {
+      "builds": [
+        {
+          "id": "20261003-184753-d5ca092-ZQJ4h",
+          "file": "builds/Atuo/20261003-184753-d5ca092-ZQJ4h.ipa",
+          "manifest": "builds/Atuo/20261003-184753-d5ca092-ZQJ4h.plist",
+          "version": "1.0",
+          "build": "1",
+          "bundle_id": "com.we.Atuo",
+          "note": "安伴 MVP：今日/任务/用药/健康/家人 5 个标签页，SwiftData 本地存储",
+          "time": "2026-10-03 18:47:53"
         }
       ]
     }
