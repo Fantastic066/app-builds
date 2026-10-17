@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03 18:47:53",
+  "updated": "2026-10-17 17:03:22",
   "apps": {
     "GBox": {
       "builds": [
@@ -60,6 +60,20 @@
           "bundle_id": "com.we.Atuo",
           "note": "安伴 MVP：今日/任务/用药/健康/家人 5 个标签页，SwiftData 本地存储",
           "time": "2026-10-03 18:47:53"
+        }
+      ]
+    },
+    "TCG": {
+      "builds": [
+        {
+          "id": "20261017-170322-efea120-h6sfE",
+          "file": "builds/TCG/20261017-170322-efea120-h6sfE.ipa",
+          "manifest": "builds/TCG/20261017-170322-efea120-h6sfE.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Similar cards: effect-text mentions top priority, limit 30",
+          "time": "2026-10-17 17:03:22"
         }
       ]
     }
