@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17 17:03:22",
+  "updated": "2026-10-17 18:10:28",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261017-181027-d8a44f8-NCU9F",
+          "file": "builds/TCG/20261017-181027-d8a44f8-NCU9F.ipa",
+          "manifest": "builds/TCG/20261017-181027-d8a44f8-NCU9F.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Search results now ranked by relevance - exact name matches first",
+          "time": "2026-10-17 18:10:28"
+        },
         {
           "id": "20261017-170322-efea120-h6sfE",
           "file": "builds/TCG/20261017-170322-efea120-h6sfE.ipa",
