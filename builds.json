@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17 18:10:28",
+  "updated": "2026-10-20 13:22:18",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261020-132218-422b6ea-tMfMM",
+          "file": "builds/TCG/20261020-132218-422b6ea-tMfMM.ipa",
+          "manifest": "builds/TCG/20261020-132218-422b6ea-tMfMM.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "YGOProDeck multilingual overlay (en/fr/de/it/pt)",
+          "time": "2026-10-20 13:22:18"
+        },
         {
           "id": "20261017-181027-d8a44f8-NCU9F",
           "file": "builds/TCG/20261017-181027-d8a44f8-NCU9F.ipa",
