@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20 14:08:09",
+  "updated": "2026-10-20 14:36:16",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261020-143616-422b6ea-YNpJf",
+          "file": "builds/TCG/20261020-143616-422b6ea-YNpJf.ipa",
+          "manifest": "builds/TCG/20261020-143616-422b6ea-YNpJf.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Bundle English Prodeck data (2.9MB zip) as default for non-Chinese users",
+          "time": "2026-10-20 14:36:16"
+        },
         {
           "id": "20261020-140809-422b6ea-ItmE2",
           "file": "builds/TCG/20261020-140809-422b6ea-ItmE2.ipa",
