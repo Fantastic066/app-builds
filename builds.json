@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20 14:36:16",
+  "updated": "2026-10-20 15:51:06",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261020-155105-422b6ea-TbPzJ",
+          "file": "builds/TCG/20261020-155105-422b6ea-TbPzJ.ipa",
+          "manifest": "builds/TCG/20261020-155105-422b6ea-TbPzJ.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Prodeck 多语言叠加 + 内置库 zip 瘦身 + 模糊搜索",
+          "time": "2026-10-20 15:51:06"
+        },
         {
           "id": "20261020-143616-422b6ea-YNpJf",
           "file": "builds/TCG/20261020-143616-422b6ea-YNpJf.ipa",
