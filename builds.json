@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20 15:51:06",
+  "updated": "2026-10-20 16:28:57",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261020-162857-381aec3-oqLax",
+          "file": "builds/TCG/20261020-162857-381aec3-oqLax.ipa",
+          "manifest": "builds/TCG/20261020-162857-381aec3-oqLax.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "新增 fr/de/it/pt/繁中 五种语言界面",
+          "time": "2026-10-20 16:28:57"
+        },
         {
           "id": "20261020-155105-422b6ea-TbPzJ",
           "file": "builds/TCG/20261020-155105-422b6ea-TbPzJ.ipa",
