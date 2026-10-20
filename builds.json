@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20 18:30:52",
+  "updated": "2026-10-20 20:39:16",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261020-203916-5afc378-bthmH",
+          "file": "builds/TCG/20261020-203916-5afc378-bthmH.ipa",
+          "manifest": "builds/TCG/20261020-203916-5afc378-bthmH.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Add deck legality check, stats and YDK export",
+          "time": "2026-10-20 20:39:16"
+        },
         {
           "id": "20261020-183052-7713612-k2ZPn",
           "file": "builds/TCG/20261020-183052-7713612-k2ZPn.ipa",
