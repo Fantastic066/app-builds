@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20 13:43:35",
+  "updated": "2026-10-20 14:08:09",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261020-140809-422b6ea-ItmE2",
+          "file": "builds/TCG/20261020-140809-422b6ea-ItmE2.ipa",
+          "manifest": "builds/TCG/20261020-140809-422b6ea-ItmE2.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Fix: omit language param for English (API rejects language=en with 400)",
+          "time": "2026-10-20 14:08:09"
+        },
         {
           "id": "20261020-134334-422b6ea-1SW71",
           "file": "builds/TCG/20261020-134334-422b6ea-1SW71.ipa",
