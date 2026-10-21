@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20 20:39:16",
+  "updated": "2026-10-21 10:08:26",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261021-100825-acab89b-lnrSW",
+          "file": "builds/TCG/20261021-100825-acab89b-lnrSW.ipa",
+          "manifest": "builds/TCG/20261021-100825-acab89b-lnrSW.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Hide tab bar on subviews; spell/trap color badge on card detail",
+          "time": "2026-10-21 10:08:26"
+        },
         {
           "id": "20261020-203916-5afc378-bthmH",
           "file": "builds/TCG/20261020-203916-5afc378-bthmH.ipa",
