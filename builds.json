@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 18:40:35",
+  "updated": "2026-10-21 18:48:46",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261021-184846-fa2629e-zujMd",
+          "file": "builds/TCG/20261021-184846-fa2629e-zujMd.ipa",
+          "manifest": "builds/TCG/20261021-184846-fa2629e-zujMd.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Card image backdrop fix verified, subtitles hug large titles like Settings",
+          "time": "2026-10-21 18:48:46"
+        },
         {
           "id": "20261021-184035-fa2629e-J4cC2",
           "file": "builds/TCG/20261021-184035-fa2629e-J4cC2.ipa",
