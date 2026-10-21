@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 14:48:10",
+  "updated": "2026-10-21 18:40:35",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261021-184035-fa2629e-J4cC2",
+          "file": "builds/TCG/20261021-184035-fa2629e-J4cC2.ipa",
+          "manifest": "builds/TCG/20261021-184035-fa2629e-J4cC2.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Remove card image backdrop mismatch, add subtitles to Collection and Decks, rotating update icon",
+          "time": "2026-10-21 18:40:35"
+        },
         {
           "id": "20261021-144810-7b23da6-wnNCE",
           "file": "builds/TCG/20261021-144810-7b23da6-wnNCE.ipa",
