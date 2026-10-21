@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 12:50:14",
+  "updated": "2026-10-21 14:48:10",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261021-144810-7b23da6-wnNCE",
+          "file": "builds/TCG/20261021-144810-7b23da6-wnNCE.ipa",
+          "manifest": "builds/TCG/20261021-144810-7b23da6-wnNCE.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Deck fixes: add-card toast, remove-all crash, tap menu with card detail, search debounce",
+          "time": "2026-10-21 14:48:10"
+        },
         {
           "id": "20261021-125013-7b23da6-wjnTA",
           "file": "builds/TCG/20261021-125013-7b23da6-wjnTA.ipa",
