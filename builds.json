@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 10:08:26",
+  "updated": "2026-10-21 10:58:49",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261021-105849-acab89b-3NNYz",
+          "file": "builds/TCG/20261021-105849-acab89b-3NNYz.ipa",
+          "manifest": "builds/TCG/20261021-105849-acab89b-3NNYz.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Fix spell/trap type badge replacing Level 0 ATK 0 DEF 0 on card detail",
+          "time": "2026-10-21 10:58:49"
+        },
         {
           "id": "20261021-100825-acab89b-lnrSW",
           "file": "builds/TCG/20261021-100825-acab89b-lnrSW.ipa",
