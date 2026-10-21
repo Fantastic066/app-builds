@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 11:57:04",
+  "updated": "2026-10-21 12:50:14",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261021-125013-7b23da6-wjnTA",
+          "file": "builds/TCG/20261021-125013-7b23da6-wjnTA.ipa",
+          "manifest": "builds/TCG/20261021-125013-7b23da6-wjnTA.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Add-card sheet: plus button to add, row tap opens card detail",
+          "time": "2026-10-21 12:50:14"
+        },
         {
           "id": "20261021-115704-acab89b-dFCiD",
           "file": "builds/TCG/20261021-115704-acab89b-dFCiD.ipa",
