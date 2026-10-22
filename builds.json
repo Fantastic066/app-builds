@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 16:12:38",
+  "updated": "2026-10-22 16:43:34",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261022-164333-eb1227b-XLx29",
+          "file": "builds/TCG/20261022-164333-eb1227b-XLx29.ipa",
+          "manifest": "builds/TCG/20261022-164333-eb1227b-XLx29.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Scan page cleanup: immersive camera view, recognition limited to viewfinder region",
+          "time": "2026-10-22 16:43:34"
+        },
         {
           "id": "20261022-161237-eb1227b-jfxJv",
           "file": "builds/TCG/20261022-161237-eb1227b-jfxJv.ipa",
