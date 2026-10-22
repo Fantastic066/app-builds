@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 18:11:23",
+  "updated": "2026-10-22 18:48:06",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261022-184805-5c75c67-fNOm9",
+          "file": "builds/TCG/20261022-184805-5c75c67-fNOm9.ipa",
+          "manifest": "builds/TCG/20261022-184805-5c75c67-fNOm9.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Remove add-card bar (menu entry), similar cards bleed to panel edge",
+          "time": "2026-10-22 18:48:06"
+        },
         {
           "id": "20261022-181122-5c75c67-kUme2",
           "file": "builds/TCG/20261022-181122-5c75c67-kUme2.ipa",
