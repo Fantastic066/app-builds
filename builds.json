@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 16:43:34",
+  "updated": "2026-10-22 18:11:23",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261022-181122-5c75c67-kUme2",
+          "file": "builds/TCG/20261022-181122-5c75c67-kUme2.ipa",
+          "manifest": "builds/TCG/20261022-181122-5c75c67-kUme2.plist",
+          "version": "1.0",
+          "build": "10",
+          "bundle_id": "com.we.TCG",
+          "note": "Add glass panel to similar cards, liquid glass add-card bar",
+          "time": "2026-10-22 18:11:23"
+        },
         {
           "id": "20261022-164333-eb1227b-XLx29",
           "file": "builds/TCG/20261022-164333-eb1227b-XLx29.ipa",
