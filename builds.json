@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31 08:09:31",
+  "updated": "2026-10-31 15:49:04",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261031-154904-48e5526-92ynB",
+          "file": "builds/TCG/20261031-154904-48e5526-92ynB.ipa",
+          "manifest": "builds/TCG/20261031-154904-48e5526-92ynB.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "批量扫描UI：快门上移、定帧、结果页sheet；卡库分组",
+          "time": "2026-10-31 15:49:04"
+        },
         {
           "id": "20261031-080931-ea41476-vrd4w",
           "file": "builds/TCG/20261031-080931-ea41476-vrd4w.ipa",
