@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 18:48:06",
+  "updated": "2026-10-31 08:09:31",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261031-080931-ea41476-vrd4w",
+          "file": "builds/TCG/20261031-080931-ea41476-vrd4w.ipa",
+          "manifest": "builds/TCG/20261031-080931-ea41476-vrd4w.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "A1 hamming-1 DB lookup + A2 read voting + A3 enhanced strip OCR",
+          "time": "2026-10-31 08:09:31"
+        },
         {
           "id": "20261022-184805-5c75c67-fNOm9",
           "file": "builds/TCG/20261022-184805-5c75c67-fNOm9.ipa",
