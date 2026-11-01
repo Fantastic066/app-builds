@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31 15:49:04",
+  "updated": "2026-11-01 09:29:03",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261101-092903-66aa428-taAGD",
+          "file": "builds/TCG/20261101-092903-66aa428-taAGD.ipa",
+          "manifest": "builds/TCG/20261101-092903-66aa428-taAGD.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Fix frozen frame EXIF orientation via applyOrientationProperty",
+          "time": "2026-11-01 09:29:03"
+        },
         {
           "id": "20261031-154904-48e5526-92ynB",
           "file": "builds/TCG/20261031-154904-48e5526-92ynB.ipa",
