@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01 11:39:47",
+  "updated": "2026-11-01 12:50:23",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261101-125022-8944519-jmaf0",
+          "file": "builds/TCG/20261101-125022-8944519-jmaf0.ipa",
+          "manifest": "builds/TCG/20261101-125022-8944519-jmaf0.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Routine OTA build",
+          "time": "2026-11-01 12:50:23"
+        },
         {
           "id": "20261101-113947-66aa428-qnqzz",
           "file": "builds/TCG/20261101-113947-66aa428-qnqzz.ipa",
@@ -354,16 +364,6 @@
           "bundle_id": "com.we.TCG",
           "note": "Search results now ranked by relevance - exact name matches first",
           "time": "2026-10-17 18:10:28"
-        },
-        {
-          "id": "20261017-170322-efea120-h6sfE",
-          "file": "builds/TCG/20261017-170322-efea120-h6sfE.ipa",
-          "manifest": "builds/TCG/20261017-170322-efea120-h6sfE.plist",
-          "version": "1.0",
-          "build": "10",
-          "bundle_id": "com.we.TCG",
-          "note": "Similar cards: effect-text mentions top priority, limit 30",
-          "time": "2026-10-17 17:03:22"
         }
       ]
     }
