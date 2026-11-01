@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01 15:07:04",
+  "updated": "2026-11-01 17:33:43",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261101-173343-316c0b4-Exig2",
+          "file": "builds/TCG/20261101-173343-316c0b4-Exig2.ipa",
+          "manifest": "builds/TCG/20261101-173343-316c0b4-Exig2.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Routine OTA build",
+          "time": "2026-11-01 17:33:43"
+        },
         {
           "id": "20261101-150704-a238d95-z8VEB",
           "file": "builds/TCG/20261101-150704-a238d95-z8VEB.ipa",
@@ -354,16 +364,6 @@
           "bundle_id": "com.we.TCG",
           "note": "Bundle English Prodeck data (2.9MB zip) as default for non-Chinese users",
           "time": "2026-10-20 14:36:16"
-        },
-        {
-          "id": "20261020-140809-422b6ea-ItmE2",
-          "file": "builds/TCG/20261020-140809-422b6ea-ItmE2.ipa",
-          "manifest": "builds/TCG/20261020-140809-422b6ea-ItmE2.plist",
-          "version": "1.0",
-          "build": "10",
-          "bundle_id": "com.we.TCG",
-          "note": "Fix: omit language param for English (API rejects language=en with 400)",
-          "time": "2026-10-20 14:08:09"
         }
       ]
     }
