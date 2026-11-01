@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01 14:34:41",
+  "updated": "2026-11-01 15:07:04",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261101-150704-a238d95-z8VEB",
+          "file": "builds/TCG/20261101-150704-a238d95-z8VEB.ipa",
+          "manifest": "builds/TCG/20261101-150704-a238d95-z8VEB.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Routine OTA build",
+          "time": "2026-11-01 15:07:04"
+        },
         {
           "id": "20261101-143441-a238d95-h0YKp",
           "file": "builds/TCG/20261101-143441-a238d95-h0YKp.ipa",
@@ -354,16 +364,6 @@
           "bundle_id": "com.we.TCG",
           "note": "Fix: omit language param for English (API rejects language=en with 400)",
           "time": "2026-10-20 14:08:09"
-        },
-        {
-          "id": "20261020-134334-422b6ea-1SW71",
-          "file": "builds/TCG/20261020-134334-422b6ea-1SW71.ipa",
-          "manifest": "builds/TCG/20261020-134334-422b6ea-1SW71.plist",
-          "version": "1.0",
-          "build": "10",
-          "bundle_id": "com.we.TCG",
-          "note": "Fix: auto-download overlay on launch + language-based image source",
-          "time": "2026-10-20 13:43:35"
         }
       ]
     }
