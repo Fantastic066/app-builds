@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01 10:35:30",
+  "updated": "2026-11-01 11:39:47",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261101-113947-66aa428-qnqzz",
+          "file": "builds/TCG/20261101-113947-66aa428-qnqzz.ipa",
+          "manifest": "builds/TCG/20261101-113947-66aa428-qnqzz.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Routine OTA build",
+          "time": "2026-11-01 11:39:47"
+        },
         {
           "id": "20261101-103530-66aa428-Xo9H2",
           "file": "builds/TCG/20261101-103530-66aa428-Xo9H2.ipa",
