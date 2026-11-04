@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04 17:05:21",
+  "updated": "2026-11-04 17:29:16",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261104-172916-ad9636f-wXxD4",
+          "file": "builds/TCG/20261104-172916-ad9636f-wXxD4.ipa",
+          "manifest": "builds/TCG/20261104-172916-ad9636f-wXxD4.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Routine OTA build",
+          "time": "2026-11-04 17:29:16"
+        },
         {
           "id": "20261104-170521-ad9636f-p3zIM",
           "file": "builds/TCG/20261104-170521-ad9636f-p3zIM.ipa",
@@ -354,16 +364,6 @@
           "bundle_id": "com.we.TCG",
           "note": "Add deck legality check, stats and YDK export",
           "time": "2026-10-20 20:39:16"
-        },
-        {
-          "id": "20261020-183052-7713612-k2ZPn",
-          "file": "builds/TCG/20261020-183052-7713612-k2ZPn.ipa",
-          "manifest": "builds/TCG/20261020-183052-7713612-k2ZPn.plist",
-          "version": "1.0",
-          "build": "10",
-          "bundle_id": "com.we.TCG",
-          "note": "Add Deck builder with iCloud sync for favorites, history and decks",
-          "time": "2026-10-20 18:30:52"
         }
       ]
     }
