@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04 17:45:26",
+  "updated": "2026-11-07 11:37:20",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261107-113719-b751e46-PsEeU",
+          "file": "builds/TCG/20261107-113719-b751e46-PsEeU.ipa",
+          "manifest": "builds/TCG/20261107-113719-b751e46-PsEeU.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Routine OTA build",
+          "time": "2026-11-07 11:37:20"
+        },
         {
           "id": "20261104-174526-ad9636f-s8MHW",
           "file": "builds/TCG/20261104-174526-ad9636f-s8MHW.ipa",
@@ -354,16 +364,6 @@
           "bundle_id": "com.we.TCG",
           "note": "Promote Decks to a tab, move Random draw to search navbar; fix spell/trap badge alignment",
           "time": "2026-10-21 11:39:40"
-        },
-        {
-          "id": "20261021-105849-acab89b-3NNYz",
-          "file": "builds/TCG/20261021-105849-acab89b-3NNYz.ipa",
-          "manifest": "builds/TCG/20261021-105849-acab89b-3NNYz.plist",
-          "version": "1.0",
-          "build": "10",
-          "bundle_id": "com.we.TCG",
-          "note": "Fix spell/trap type badge replacing Level 0 ATK 0 DEF 0 on card detail",
-          "time": "2026-10-21 10:58:49"
         }
       ]
     }
