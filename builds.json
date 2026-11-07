@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07 11:37:20",
+  "updated": "2026-11-07 12:08:49",
   "apps": {
     "GBox": {
       "builds": [
@@ -65,6 +65,16 @@
     },
     "TCG": {
       "builds": [
+        {
+          "id": "20261107-120848-b751e46-okFiN",
+          "file": "builds/TCG/20261107-120848-b751e46-okFiN.ipa",
+          "manifest": "builds/TCG/20261107-120848-b751e46-okFiN.plist",
+          "version": "1.1",
+          "build": "101",
+          "bundle_id": "com.we.TCG",
+          "note": "Routine OTA build",
+          "time": "2026-11-07 12:08:49"
+        },
         {
           "id": "20261107-113719-b751e46-PsEeU",
           "file": "builds/TCG/20261107-113719-b751e46-PsEeU.ipa",
@@ -354,16 +364,6 @@
           "bundle_id": "com.we.TCG",
           "note": "Swap tab icons: layers for Decks, new heart outline for Collection",
           "time": "2026-10-21 11:57:04"
-        },
-        {
-          "id": "20261021-113940-acab89b-Txdrz",
-          "file": "builds/TCG/20261021-113940-acab89b-Txdrz.ipa",
-          "manifest": "builds/TCG/20261021-113940-acab89b-Txdrz.plist",
-          "version": "1.0",
-          "build": "10",
-          "bundle_id": "com.we.TCG",
-          "note": "Promote Decks to a tab, move Random draw to search navbar; fix spell/trap badge alignment",
-          "time": "2026-10-21 11:39:40"
         }
       ]
     }
