@@ -1,8 +1,18 @@
 {
-  "updated": "2026-11-21 16:47:57",
+  "updated": "2026-11-21 16:48:21",
   "apps": {
     "GBox": {
       "builds": [
+        {
+          "id": "20261121-164820-a2bfdf7-sEI2f",
+          "file": "builds/GBox/20261121-164820-a2bfdf7-sEI2f.ipa",
+          "manifest": "builds/GBox/20261121-164820-a2bfdf7-sEI2f.plist",
+          "version": "5.2.5",
+          "build": "5.2.5",
+          "bundle_id": "com.tf06.gbx",
+          "note": "OTA build 2026-11-21",
+          "time": "2026-11-21 16:48:21"
+        },
         {
           "id": "20261121-164756-a2bfdf7-VdOrc",
           "file": "builds/GBox/20261121-164756-a2bfdf7-VdOrc.ipa",
